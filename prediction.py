@@ -34,3 +34,4 @@ def batch_predict(texts,model=TRAIN_MODEL):
 # print(batch_predict("this product is good",model=TRAIN_MODEL))
 print(TRAIN_MODEL)
 
+

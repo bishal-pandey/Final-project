@@ -1,0 +1,10 @@
+pandas
+numpy
+fastapi
+torch
+dill
+contractions
+emoji
+pydantic
+jinja2
+uvicorn
