@@ -1,11 +1,11 @@
 # Sentiment Analysis on Product Reviews
 ## _Deep Learning Model using custom LSTM + Attention Mechanism_
 
-This project builds an end-to-end sentiment analysis system that classifies  product reviews into Positive, Negative, or Neutral sentiments. It uses a custom LSTM architecture enhanced with an Attention Layer, trained on 19k+ reviews.
+This project builds an end-to-end sentiment analysis system that classifies product reviews into Positive, Negative, or Neutral sentiments. It uses a custom LSTM architecture enhanced with an Attention Layer, trained on 19k+ reviews.
 
 ### _Features_
 - Web-scraped dataset: 4k Flipkart reviews + Kaggle dataset.  
-- Custom **LSTM + Attention** architecture for improved performance.  
+- Custom `LSTM + Attention` architecture for improved performance.  
 - Multi-class sentiment classification (Positive, Negative, Neutral).  
 - Complete NLP preprocessing pipeline: text cleaning, tokenization, padding, and embeddings.  
 - Evaluation metrics: **Accuracy, Precision, Recall, F1-score**.  
@@ -13,7 +13,7 @@ This project builds an end-to-end sentiment analysis system that classifies  pro
 
 
 ## _Tools Used_
-- Programming Language: Python 3.x.
+- Programming Language: Python
 - Deep Learning Framework: PyTorch (for model and training) 
 - Data Handling: Pandas for CSV handling, NumPy for numerical operations.
 - Preprocessing: python libraries re, String, emoji.
@@ -55,10 +55,10 @@ by TF-IDF vectorization
 
 
 _Model Architecture_           
-<img width="380" height="240" alt="Screenshot (83)" src="https://github.com/bishal-pandey/Sentiment-Analysis-on-Product-review/blob/master/Project_Image/architecture.png?raw=true" />
+<img width="380" height="240" alt="Model Architecture" src="https://github.com/bishal-pandey/Final-project/blob/master/project_images/architecture.png" />
                              
 _Attention_         
-<img width="380" height="240" alt="Screenshot (83)" src="https://github.com/bishal-pandey/Sentiment-Analysis-on-Product-review/blob/master/Project_Image/attention.jpg" />
+<img width="380" height="240" alt="Attention" src="https://github.com/bishal-pandey/Final-project/blob/master/project_images/attention.jpg" />
                             
 
 
