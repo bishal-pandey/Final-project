@@ -16,7 +16,7 @@ setattr(sys.modules['__main__'], 'Tokenization', Tokenization)
 with open("tokenizer.pt", "rb") as f:
     token = dill.load(f)
 
-TRAIN_MODEL = torch.jit.load("sentiment2.pt", map_location="cpu")
+TRAIN_MODEL = torch.jit.load("model/sentiment2.pt", map_location="cpu")
 
 def batch_predict(texts,model=TRAIN_MODEL):
     text_df = pd.Series(texts)
